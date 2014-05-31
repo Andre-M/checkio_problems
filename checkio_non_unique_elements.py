@@ -3,11 +3,8 @@
 # Non-unique Elements
 # http://www.checkio.org/mission/non-unique-elements/solve/
 
-
 #Your optional code here
 #You can import some modules or create additional functions
-
-
 def checkio(data):
 
     result = []
@@ -18,12 +15,15 @@ def checkio(data):
 
     return result
 
+
+
+
+
 #Some hints
 #You can use list.count(element) method for counting.
 #Create new list with non-unique elements
 #or remove elements from original list (but it's bad practice for many real cases)
 #Loop over original list
-
 if __name__ == "__main__":
     #These "asserts" using only for self-checking and not necessary for auto-testing
     assert isinstance(checkio([1]), list), "The result must be a list"
